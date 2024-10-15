@@ -22,7 +22,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-15 16:04:06.355663",
+ "modified": "2024-10-15 16:50:13.969392",
  "modified_by": "Administrator",
  "module": "eBook Store",
  "name": "Author",
@@ -43,5 +43,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "full_name"
 }

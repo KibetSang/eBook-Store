@@ -14,3 +14,6 @@ class eBook(WebsiteGenerator):
         context.author = frappe.db.get_value(
             "Author", self.author, ["full_name as name", "bio"], as_dict=True
         )
+    def validate(self):
+        if not self.route:
+            self.route = f"store/{cleanup_page_name(self.name)}"
